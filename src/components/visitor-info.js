@@ -6,10 +6,6 @@ const VisitorInfo = () => {
     isLoading, error, data
   } = useVisitorData();
 
-  console.log(isLoading)
-  console.log(error)
-  console.log(data)
-
   if (isLoading) {
     return <div>Loading...</div>;
   }
